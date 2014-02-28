@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+.img-flex {
+	width:80%;
+	display:block;
+}
+.product {
+	background-color: #FFF;
+	padding: 1em;
