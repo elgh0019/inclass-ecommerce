@@ -9,3 +9,9 @@ layout: default
 <p>All dinosaurs that ever existed</p>
 </div>
 </div>
+
+<ul>
+	{% for dino in site.pages %}
+		<li>{{dino.url}}</li>
+	{% endfor %}
+</ul>
